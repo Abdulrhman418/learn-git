@@ -9,7 +9,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-        run: echo "hello from firist workflow"
-        run: ls -alt
-        uses: actions/checkout@v6.0.1
-        run: ls -alt
+      - run: echo "hello from firist workflow"
+      - run: ls -alt
+      - uses: actions/checkout@v6.0.1
+      - run: ls -alt
