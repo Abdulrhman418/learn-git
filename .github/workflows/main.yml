@@ -1,0 +1,19 @@
+name: first workflow
+
+on: 
+  push:
+    branches:
+    - main
+
+jobs:
+  job1:
+    runs-on: ubuntu_latest
+    steps:
+      - name: print_hello
+        run: echo "hello from firist workflow"
+      - name: ls files
+        run: ls -alt
+      - name: checkout repo
+        uses: actions/checkout@v6.0.1
+      - name: ls files
+        run: ls -alt
