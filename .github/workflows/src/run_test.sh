@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-OUTPUT= "Hello, Abdulrahman!"
-
+OUTPUT= "Hello, Abdulrahman! "
 
 EXPECTED=$(cat expected.txt)
 
