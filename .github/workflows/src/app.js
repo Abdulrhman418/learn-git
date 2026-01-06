@@ -2,5 +2,5 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 
-// for test t
+// for test eee
 console.log(greet("Abdulrahman"));  
