@@ -1,9 +1,9 @@
 #!/bin/bash
 
 
-OUTPUT= "Hello, Abdulrahman! "
+OUTPUT= $(node app.js)
 
-EXPECTED=$(cat expected.txt)
+EXPECTED="Hello, Abdulrahman!"
 
 
 if [ "$OUTPUT" == "$EXPECTED" ]; then
